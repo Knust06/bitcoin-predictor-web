@@ -8,8 +8,7 @@ const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: "Bitcoin Price Predictor | Lucas Knust",
-  description: "Ferramenta de previsão de preço de Bitcoin usando Machine Learning",
-    generator: 'v0.dev'
+  description: "Projeto pessoal e acadêmico para consulta de preços e previsão experimental de Bitcoin com Machine Learning",
 }
 
 export default function RootLayout({
