@@ -23,7 +23,7 @@ export function Services() {
   const [isLoading, setIsLoading] = useState(false)
   const [isPredicting, setIsPredicting] = useState(false)
 
-  const apiUrl = "https://bitcoinpreviewer.up.railway.app"
+  const apiUrl = process.env.NEXT_PUBLIC_API_URL || "https://bitcoinpreviewer.up.railway.app"
 
   const fetchHistoricalPrices = async (e: React.FormEvent) => {
     e.preventDefault()
