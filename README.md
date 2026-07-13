@@ -45,13 +45,13 @@ Acesse `http://localhost:3000`.
 
 ## Configuração da API
 
-O frontend usa a variável pública `NEXT_PUBLIC_API_URL`. Quando ela não é informada, a aplicação utiliza a instância experimental configurada no código.
+A URL do backend está definida em `components/services.tsx`:
 
-Exemplo de `.env.local`:
-
-```env
-NEXT_PUBLIC_API_URL=http://127.0.0.1:8000
+```ts
+const apiUrl = "https://bitcoinpreviewer.up.railway.app"
 ```
+
+Para usar uma instância local ou outro ambiente, altere esse valor antes de executar ou gerar o build.
 
 Endpoints consumidos:
 
