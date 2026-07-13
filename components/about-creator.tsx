@@ -20,7 +20,9 @@ export function AboutCreator() {
               <div className="flex flex-col space-y-4">
                 <div className="space-y-2">
                   <h3 className="text-2xl font-bold">Lucas Knust</h3>
-                  <p className="text-muted-foreground">Analista de Sistemas | C#/.NET, APIs e IA aplicada</p>
+                  <p className="text-muted-foreground">
+                    System Analyst | C#/.NET | REST APIs &amp; Automation | Applied AI
+                  </p>
                 </div>
                 <div className="flex items-center space-x-4">
                   <Button variant="outline" size="icon" asChild>
@@ -39,15 +41,15 @@ export function AboutCreator() {
                 <div className="space-y-2">
                   <div className="flex items-center space-x-2">
                     <GraduationCap className="h-4 w-4 text-orange-500" />
-                    <span>Ciência da Computação — Universidade Veiga de Almeida</span>
+                    <span>Ciência da Computação, Universidade Veiga de Almeida</span>
                   </div>
                   <div className="flex items-center space-x-2">
                     <GraduationCap className="h-4 w-4 text-orange-500" />
-                    <span>Machine Learning Engineering — FIAP</span>
+                    <span>Machine Learning Engineering (concluída), FIAP</span>
                   </div>
                   <div className="flex items-center space-x-2">
                     <Bot className="h-4 w-4 text-orange-500" />
-                    <span>AI Agents — FIAP, em andamento</span>
+                    <span>AI Agents (em andamento), FIAP</span>
                   </div>
                   <div className="flex items-center space-x-2">
                     <Briefcase className="h-4 w-4 text-orange-500" />

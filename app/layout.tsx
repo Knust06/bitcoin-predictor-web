@@ -7,8 +7,9 @@ import { ThemeProvider } from "@/components/theme-provider"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Bitcoin Price Predictor | Lucas Knust",
-  description: "Projeto pessoal e acadêmico para consulta de preços e previsão experimental de Bitcoin com Machine Learning",
+  title: "Bitcoin Price Predictor Web | Lucas Knust",
+  description:
+    "Frontend pessoal e acadêmico para consulta de preços e previsão experimental de Bitcoin com Machine Learning",
 }
 
 export default function RootLayout({
