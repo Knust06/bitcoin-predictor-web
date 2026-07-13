@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
-import { Linkedin, Github, Code, GraduationCap, Briefcase } from "lucide-react"
+import { Linkedin, Github, Code, GraduationCap, Briefcase, Bot } from "lucide-react"
 
 export function AboutCreator() {
   return (
@@ -10,7 +10,7 @@ export function AboutCreator() {
           <div className="space-y-2">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Sobre o Criador</h2>
             <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              Conheça um pouco sobre minha trajetória e experiência
+              Formação, experiência e contexto deste projeto pessoal
             </p>
           </div>
         </div>
@@ -20,7 +20,7 @@ export function AboutCreator() {
               <div className="flex flex-col space-y-4">
                 <div className="space-y-2">
                   <h3 className="text-2xl font-bold">Lucas Knust</h3>
-                  <p className="text-muted-foreground">Analista de Sistemas C# | Machine Learning Engineer</p>
+                  <p className="text-muted-foreground">Analista de Sistemas | C#/.NET, APIs e IA aplicada</p>
                 </div>
                 <div className="flex items-center space-x-4">
                   <Button variant="outline" size="icon" asChild>
@@ -30,7 +30,7 @@ export function AboutCreator() {
                     </a>
                   </Button>
                   <Button variant="outline" size="icon" asChild>
-                    <a href="#" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/Knust06" target="_blank" rel="noopener noreferrer">
                       <Github className="h-4 w-4" />
                       <span className="sr-only">GitHub</span>
                     </a>
@@ -39,19 +39,23 @@ export function AboutCreator() {
                 <div className="space-y-2">
                   <div className="flex items-center space-x-2">
                     <GraduationCap className="h-4 w-4 text-orange-500" />
-                    <span>Ciência da Computação</span>
+                    <span>Ciência da Computação — Universidade Veiga de Almeida</span>
                   </div>
                   <div className="flex items-center space-x-2">
                     <GraduationCap className="h-4 w-4 text-orange-500" />
-                    <span>Pós-graduação em Machine Learning Engineering (em andamento)</span>
+                    <span>Machine Learning Engineering — FIAP</span>
+                  </div>
+                  <div className="flex items-center space-x-2">
+                    <Bot className="h-4 w-4 text-orange-500" />
+                    <span>AI Agents — FIAP, em andamento</span>
                   </div>
                   <div className="flex items-center space-x-2">
                     <Briefcase className="h-4 w-4 text-orange-500" />
-                    <span>Analista de Sistemas C#</span>
+                    <span>Aplicações corporativas, integrações e automação</span>
                   </div>
                   <div className="flex items-center space-x-2">
                     <Code className="h-4 w-4 text-orange-500" />
-                    <span>Desenvolvimento para o mercado financeiro</span>
+                    <span>C#/.NET, APIs REST, Python e IA aplicada</span>
                   </div>
                 </div>
               </div>
@@ -59,22 +63,20 @@ export function AboutCreator() {
           </Card>
           <div className="flex flex-col justify-center space-y-4">
             <p className="text-muted-foreground">
-              Meu nome é Lucas Knust, sou entusiasta de tecnologia e formado em Ciência da Computação. Atualmente, estou
-              concluindo uma pós-graduação em Machine Learning Engineering, com foco em explorar o potencial da
-              inteligência artificial para resolver problemas do mundo real.
+              Sou Analista de Sistemas e trabalho principalmente com C#/.NET, aplicações corporativas, APIs REST,
+              integrações e automação de processos.
             </p>
             <p className="text-muted-foreground">
-              Atuo como Analista de Sistemas C#, desenvolvendo soluções para o mercado financeiro, onde ganho
-              experiência prática com tecnologias avançadas e requisitos críticos de negócios.
+              Sou formado em Ciência da Computação, concluí a pós-graduação em Machine Learning Engineering na FIAP e
+              atualmente curso uma segunda pós-graduação voltada a AI Agents.
             </p>
             <p className="text-muted-foreground">
-              Este projeto é fruto da minha paixão por tecnologia e aprendizado constante. A API que alimenta este site
-              foi desenvolvida como parte da minha especialização em Machine Learning e tem como objetivo prever o valor
-              do Bitcoin para o dia seguinte, utilizando técnicas modernas de aprendizado de máquina.
+              Este frontend é um projeto pessoal e acadêmico criado para consumir uma API experimental de preços e
+              previsão de Bitcoin, explorando a integração entre desenvolvimento web e Machine Learning.
             </p>
             <p className="text-muted-foreground">
-              Além do trabalho e dos estudos, sou entusiasta de jogos, mercado financeiro e, principalmente, de
-              tecnologia, acreditando sempre no impacto positivo que ela pode trazer para a sociedade.
+              Os repositórios públicos deste perfil não contêm código profissional. O código utilizado no trabalho é
+              mantido em Azure Repos privados.
             </p>
           </div>
         </div>
